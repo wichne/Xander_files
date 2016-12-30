@@ -1,0 +1,21 @@
+Building a model for nxrA.
+
+Pulled sequences from NCBI:
+(narG[gene] OR "nitrate oxidoreductase"[title]) NOT partial[title] NOT beta[title] NOT gamma[title] NOT fragment[title]
+and uniprot:
+gene:nxra (select only sequences longer than 650aa)
+
+This gets 25 unique sequences, of which 4 were fragments. The remaining 21  were 6 Nitrospira, 5 Planctomycetes (Scalindua, Brocadia), 1 Terrabacteria (Armatimonadetes), 1 NC10, 1 Chloroflexi and 1 Rokubacteria in one cluster and 4 Chloroflexi (Nitrolancea), 1 Archaea (Methanoperedens), 1 gProteo (Thiocapsa) in a second cluster that is actually quite similar to NarG.
+
+This model will be for Nitrospira-like NxrA.
+
+Reduce to just the Nitrospirae-like nxrA sequences. Get rid of gappy (>50%) columns and nr to 85%. Save as the .seeds file and a .sto file.
+Build the initial hmm.
+$ /home/bifx/hmmer-3.0_xanderpatch/binaries/hmmbuild -n nxrA-1 -o nxrA-1.summary nxrA-1.hmm nxrA-1.trimmed.sto
+
+Build the nucl.fa and framebot.fa files
+$ perl /files1/Xander_additions/build_framebot.pl -f nxrA-1.nr.faa
+
+$ /home/bifx/RDPTools/Xander_assembler/bin/prepare_gene_ref.sh nxrA-1
+
+Looking at the ref_aligned.faa, everything looks okay.

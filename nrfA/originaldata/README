@@ -1,0 +1,18 @@
+NCBI search:
+(nrfA[gene] OR nrfA[title]) NOT regulato[title] NOT Nif-regulating[title] NOT partial[title] NOT fragment[title] AND (Genbank[source] OR EMBL[source]) 
+
+Made nr to 80%.
+$ cd-hit -c 0.8 -i NCBI.nrfA.faa -o NCBI.nrfA.nr.faa
+Aligned and removed truncated sequences, unrelated sequences, gappy columns.
+$ muscle -in NCBI.nrfA.nr.faa -msf -out NCBI.nrfA.nr.msf -diags
+Made nr to 60%
+Save as .seeds and .sto files
+
+Make hmm
+$ /home/bifx/hmmer-3.0_xanderpatch/binaries/hmmbuild -n nrfA -o nrfA.hmmbuild.summary nrfA.hmm nrfA.sto
+
+Test the HMM against uniref
+$ hmmsearch --cpu 24 -E 1e-5 --noali --tblout nrfA.uniref.tblout nrfA.hmm /scripts/db/uniprot/uniref90.no_frag.fasta
+
+$ ../../build_framebot.pl -f NCBI.nrfA.nr.faa
+$ /home/bifx/RDPTools/Xander_assembler/bin/prepare_gene_ref.sh nrfA

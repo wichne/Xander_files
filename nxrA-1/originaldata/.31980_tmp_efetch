@@ -1,0 +1,1184 @@
+LOCUS       KWT84149                1164 aa            linear   BCT 26-JAN-2016
+DEFINITION  nitrate oxidoreductase subunit alpha [Nitrospirae bacterium HCH-1].
+ACCESSION   KWT84149
+VERSION     KWT84149.1  GI:983040946
+DBLINK      BioProject: PRJNA300727
+            BioSample: SAMN04229298
+DBSOURCE    accession LNQR01000070.1
+KEYWORDS    .
+SOURCE      Nitrospirae bacterium HCH-1
+  ORGANISM  Nitrospirae bacterium HCH-1
+            Bacteria; Nitrospirae.
+REFERENCE   1  (residues 1 to 1164)
+  AUTHORS   Lin,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-NOV-2015) Paleomagnetism and Geochronology
+            Laboratory, Institute of Geology and Geophysics, Chinese Academy of
+            Sciences, Bei Tu Cheng Xi Lu 19, Beijing 100029, China
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method        :: Velvet v. 1.2.10
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 330.0x
+            Sequencing Technology  :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1164
+                     /organism="Nitrospirae bacterium HCH-1"
+                     /strain="HCH-1"
+                     /isolation_source="freshwater sediment"
+                     /db_xref="taxon:1748249"
+                     /country="China: city moat, Xi'an"
+                     /lat_lon="34.25287 N 108.92187 E"
+                     /collection_date="2012-10-09"
+     Protein         1..1164
+                     /product="nitrate oxidoreductase subunit alpha"
+                     /EC_number="1.7.99.4"
+     Region          6..1038
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          68..863
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(119,272,274..276,306..307,309,312..313,334..336,356,
+                     542,654..656,694..696,699,711..712,717)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          929..>1034
+                     /region_name="Molydop_binding"
+                     /note="Molydopterin dinucleotide binding domain;
+                     pfam01568"
+                     /db_xref="CDD:279854"
+     Site            order(936..937,939..942,1038,1076)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:239176"
+     CDS             1..1164
+                     /gene="narG"
+                     /locus_tag="ASN18_2077"
+                     /coded_by="LNQR01000070.1:130362..133856"
+                     /inference="similar to AA sequence:UniProtKB:P09152"
+                     /transl_table=11
+ORIGIN      
+        1 mekisrrkfl katsgvfmls vlggaealam nafepakgve npmkhypdrn wekvyrdiyk
+       61 pdssyiftct pncthncylr ayvkngvvvr vgpsqnyhka tdvygtkasq rwdprhcnkg
+      121 ialvrrfygd rrvkgamvrk gfltwvekgf prdadgippa eyfkrgedqy vqlpwekaye
+      181 iaaktfyeis ktysgdsgaa llkrqdydee mikrmggagt ramkfrggmp algsiklfgq
+      241 yrtansmall dkhirkvddd kavgsvgldn ytwhtdlppg hpmvcgqqti dfdlsnveyt
+      301 nivacwginw istkmpdghw ltearlkgkk vlvitaeyss tcskadeivi irpgtdpala
+      361 lgvahvlike nlydkgfvkt htdlpmlvrm dtgntlkate vfsgyknkel klkmvvktaa
+      421 dlpkptqtnv gmpaiteemr newgdfvmwd tktskpvavs sddvgehfkk lgiepaiege
+      481 ftvsiggkdv kvrpvfdivk qhvmdtwtpe ntekitwapk saiismarqf aanpekvlft
+      541 vgmgpnqffn adqkdraifl iaamtrnvgf fggnvgsyag nyraayfngl pqymaenpfd
+      601 itldptksak vkmlfafqsa hyyshgdqpl kvhgkyfngk thmpfptkam wfsasnsilg
+      661 nakghyeivm nllrhpvyra kgepkrliea vftnewwwtg tceysdivfg vdswaeynis
+      721 dmtqsctnpf mqvmplgeik rihntksnte tykgvaaela kltgdkrfnd ywafidekhr
+      781 akpymqrvln hsnmfkgydv ddllakakdg ipalmmgkty pkfigyeqsn esapwynrtg
+      841 rlefyrdeqe fkdygecipl hrepidstfy epntivaaph plikpktped ygfsradlsr
+      901 etrqvrnvvy tvdellktqh plikdkfnyi wltpkyrhsv htmfadidym svwwgpfgdm
+      961 yrkdkrkpwv gegyldihpe dakayniddg dyiwvdadpe dmpfkgwqer pheykvarcm
+     1021 lraryypgtp rgvirtwfnl ymasfgsvkg hetrkdglak npdtgyqsmy rygghqsgtr
+     1081 swlrptlltd tlvrkdlmgq avgkgfapdv hcangapres fakfskaedg gesgkgkwrp
+     1141 itlggrptye sakfkdylng kfvg
+//
+
+LOCUS       CUQ65854                1145 aa            linear   BCT 16-NOV-2015
+DEFINITION  Nitrite oxidoreductase, alpha subunit [Candidatus Nitrospira
+            inopinata].
+ACCESSION   CUQ65854
+VERSION     CUQ65854.1  GI:952974937
+DBLINK      BioProject: PRJEB10818
+            BioSample: SAMEA3560316
+DBSOURCE    embl accession LN885086.1
+KEYWORDS    .
+SOURCE      Candidatus Nitrospira inopinata
+  ORGANISM  Candidatus Nitrospira inopinata
+            Bacteria; Nitrospirae; Nitrospirales; Nitrospiraceae; Nitrospira.
+REFERENCE   1
+  AUTHORS   Daims,Holger.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-SEP-2015) Department of Microbiology and Ecosystem
+            Science, University of Vienna, Althanstr. 14, 1090 Vienna, Austria
+FEATURES             Location/Qualifiers
+     source          1..1145
+                     /organism="Candidatus Nitrospira inopinata"
+                     /isolate="ENR4"
+                     /db_xref="taxon:1715989"
+                     /chromosome="1"
+     Protein         1..1145
+                     /product="Nitrite oxidoreductase, alpha subunit"
+                     /EC_number="1.7.99.4"
+                     /function="6.5 : Electron transport"
+     Region          5..973
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          67..827
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(117,251,253..254,260,306..307,309,312..313,334..336,
+                     356,527,581..583,681..683,686,698..699,704)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          905..>973
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:299124"
+     CDS             1..1145
+                     /gene="nxrA"
+                     /locus_tag="NITINOP_0879"
+                     /coded_by="complement(LN885086.1:838337..841774)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2b : Function of strongly homologous gene;
+                     PubMedId : 20624973, 23439773; Product type e : enzyme"
+                     /transl_table=11
+ORIGIN      
+        1 mflsrrqflk vsvgtvaava vadkvlalta lqpvievgnp lgeypdrswe rvyhdqyryd
+       61 ssftwvcspn dthacrvraf vrngvvmrve qnydhqtyed lygnrgtfah nprmclkgft
+      121 fhrrvygpyr lkgplmrkgw kqwmddgape ltpetkrkyk fdsrflddml rvswdtafty
+      181 aakamiiiat rysgeagarr lreqgyapem iemmkgagtr cfkhragmpv lgiigkmgnt
+      241 rmngginall dtwirkvgpd qaqggrywsn ytwhgdqnpa hpwwsgvqgs dvdlsdmrfs
+      301 klntswgknf venkmpeahw kleciergar vvvitpeynp tayradywmp lrpqsdgalf
+      361 lgamkiivde nmhdvdflks ftdapilvrt dtlqyldprd vipdykfpdf sksysgriqs
+      421 lkpeqiqrlg gmmvwdlnkk qavplhreqv gwhyvnsgid aaltgtyrvk llngreidam
+      481 piwqmymvhf qdydldtvhq itrtpkdliv rwardsgtik paaihngegt chyfhqtina
+      541 rgaamvliit gnvgkfgtgq htwagnykag awtatpwsga glsvhtgedp fnitldpnah
+      601 gkeihtrsyy ygeevgywnh gdtalivntp kygrkvftgk thmptpskfr wvtnvnvvnn
+      661 akhhydmvkn vdpnieclit qdiemtsdin hadiafacns wmeftypemt itvsnpwvqi
+      721 wkggirplyd trndldtfag vaaklsdmtg dkrmkdyfam vyanrvdvya qrmldasstf
+      781 ygysadvmlk sekgwmvmvr typrhpfwee tneskpmwtr sgryenyrpe aeaieygenf
+      841 ishregpeat pylpnaiftt npyvrpddyg ipitaqhhdd ktvrniklsw deikrhsnpl
+      901 wekgyqfycv tpktrhrvhs qwsvndwvqi yesnfgdpyr mdkrtpgvge hqlhinpqaa
+      961 kdrgindgdy vyvdgnpvdr pyrgwkpsdp yykvarlmir akynpaypyh vtmakhapfv
+     1021 atpksvkghe trpdgraiai dtgyqsnfry gcqqsftrnw lmpmhqtdsl pgkhaiawkf
+     1081 kwgyqvdhha intvpkecli ritkaedggi gargpwepvr tgftpgqene fmikwlkgeh
+     1141 ikikv
+//
+
+LOCUS       CUS33249                1145 aa            linear   BCT 17-MAR-2016
+DEFINITION  Nitrite oxidoreductase, alpha subunit [Candidatus Nitrospira
+            nitrosa].
+ACCESSION   CUS33249
+VERSION     CUS33249.1  GI:953253423
+DBLINK      BioProject: PRJEB11445
+            BioSample: SAMEA3638995
+DBSOURCE    embl accession CZQA01000001.1
+KEYWORDS    .
+SOURCE      Candidatus Nitrospira nitrosa
+  ORGANISM  Candidatus Nitrospira nitrosa
+            Bacteria; Nitrospirae; Nitrospirales; Nitrospiraceae; Nitrospira.
+REFERENCE   1
+  AUTHORS   Luecker,Sebastian. and Luecker,Sebastian.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2015) Univie, Department of Microbiology, Radboud
+            University, Heyendaalseweg 135, 6525 AJ Nijmegen, Netherlands
+FEATURES             Location/Qualifiers
+     source          1..1145
+                     /organism="Candidatus Nitrospira nitrosa"
+                     /isolate="COMA1"
+                     /isolation_source="RAS biofilter"
+                     /db_xref="taxon:1742972"
+                     /note="contig: COMA1_Contig_1"
+     Protein         1..1145
+                     /product="Nitrite oxidoreductase, alpha subunit"
+                     /EC_number="1.7.99.4"
+     Region          5..973
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          67..827
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(117,251,253..254,258,306..307,309,312..313,334..336,
+                     356,527,581..583,681..683,686,698..699,704)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          905..>973
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:299124"
+     CDS             1..1145
+                     /gene="nxrA2"
+                     /locus_tag="COMA1_11047"
+                     /coded_by="CZQA01000001.1:1056861..1060298"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2b : Function of strongly homologous gene;
+                     Product type e : enzyme"
+                     /transl_table=11
+                     /db_xref="UniProtKB/TrEMBL:A0A0S4L679"
+ORIGIN      
+        1 mflsrrqflk vsvgtvaaaa vadkvlalta lqpvievgnp lgdypdrswe rvyhdqyryd
+       61 ssftwvcspn dthacrvraf vrngvvmrve qnydhqtyed lygnrgtfah nprmclkgft
+      121 fhrrvygpyr lkgplmrkgw kqwmddgspe ltpdtkrkyk fdsrflddml rvswdtafty
+      181 aakamiiiat rysgeagarr lreqgyapem iemmkgagtr cfkhragmpv lgiigkmgnt
+      241 rmngginall dtwirkvspe qaqggrywsn ytwhgdqnps qpfwsgvqgs didladmrfs
+      301 klntswgknf venkmpeahw kleciergar vvvitpeynp tayradywmp lrpqsdgalf
+      361 mgamkiiide nmhdvdflkq ftdapilvrt dtlqyldprd vvadykfpdf sksysgriqa
+      421 lkpqdverlg gmmvwdlnkk qavplhreqv gwhyinsgid aalngtyrvk llngrevdam
+      481 pvwqmylvhf qdydldtthq icrtpkdliv rwardsgtik paaihngegv thyfhmtpng
+      541 raaamvliit gnvgkfgtgq htwagnykag cwtatpwsga glsvhtgedp fnitldpnah
+      601 gkeiktksyy ygeevgywnh gdtalivntp kygrkvftgk thmptpskfr wvvnvnvlnn
+      661 akhhydmvrn vdpnietlit qdiemtsdvn hndiafacns wmeftypemt itvsnpwvqi
+      721 wkggirplyd trndldtfag vaaklsemtg dkrmkdyfam vyanrvdvya qrmldasstf
+      781 ygysadvmlk sekgwmvmvr typrhpfwee tneskpmwtr sgryenyrie peaieygenf
+      841 ishregpeat pylpnaiftt npycrpddyg ipitaqhhdd ktvrniklsw heivrhsnpl
+      901 wekgyqfycv tpktrhrvhs qwsvndwvqi yesnfgdpyr mdkrtpgvge hqihinpqaa
+      961 kdrgindgdy vyvdgnpvdr pyrgwkpsdp yykvarlmir akynpaypyh vtmakhapyv
+     1021 stpksvkghe trpdgraiai dtgyqsnfry gaqqsftrnw lmpmhqtdsl pgkhaiawkf
+     1081 kwgyqvdhha intvpkecli ritkaedggi gargpwepvr tgftpgqene fmikwlkgeh
+     1141 ikikv
+//
+
+LOCUS       ALA60412                1145 aa            linear   BCT 25-AUG-2015
+DEFINITION  putative Nitrite oxidoreductase, alpha subunit [Nitrospira
+            moscoviensis].
+ACCESSION   ALA60412
+VERSION     ALA60412.1  GI:922309589
+DBLINK      BioProject: PRJNA283178
+            BioSample: SAMN03702441
+DBSOURCE    accession CP011801.1
+KEYWORDS    .
+SOURCE      Nitrospira moscoviensis
+  ORGANISM  Nitrospira moscoviensis
+            Bacteria; Nitrospirae; Nitrospirales; Nitrospiraceae; Nitrospira.
+REFERENCE   1  (residues 1 to 1145)
+  AUTHORS   Koch,H., Lucker,S., Albertsen,M., Kitzinger,K., Herbold,C.,
+            Spieck,E., Nielsen,P.H., Wagner,M. and Daims,H.
+  TITLE     Expanded metabolic versatility of ubiquitous nitrite-oxidizing
+            bacteria from the genus Nitrospira
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 112 (36), 11371-11376 (2015)
+   PUBMED   26305944
+REFERENCE   2  (residues 1 to 1145)
+  AUTHORS   Koch,H., Albertsen,M., Kitzinger,K., Herbold,C., Lucker,S.,
+            Spieck,E., Nielsen,P.H., Wagner,M. and Daims,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2015) Department of Microbiology and Ecosystem
+            Science, University of Vienna, Althanstrasse 14, Vienna 1090,
+            Austria
+COMMENT     Source DNA is available from Dr. Holger Daims
+            (daims@microbial-ecology.net).
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC genomics workbench v. 6.5.1
+            Genome Coverage       :: 238
+            Sequencing Technology :: Illumina
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1145
+                     /organism="Nitrospira moscoviensis"
+                     /strain="NSP M-1"
+                     /db_xref="taxon:42253"
+                     /country="Russia: Moscow"
+     Protein         1..1145
+                     /product="putative Nitrite oxidoreductase, alpha subunit"
+                     /EC_number="1.7.99.4"
+                     /function="1.4.2 : Electron acceptor"
+     Region          5..973
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          66..827
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(117,251,253..254,260,306..307,309,312..313,334..336,
+                     356,527,654..656,681..683,686,698..699,704)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          905..>973
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:299124"
+     CDS             1..1145
+                     /locus_tag="NITMOv2_4028"
+                     /coded_by="complement(CP011801.1:3800354..3803791)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3 : Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId : 10504245, 14725769, 15122898,
+                     2674654, 9585550; Product type pe : putative enzyme"
+                     /transl_table=11
+ORIGIN      
+        1 mflsrrqflk vsagtvaava vadkvlalta lqpvievgnp lgdypdrswe rvyhdqyryd
+       61 ssftwccspn dthacriraf vrngvvmrve qnydhqtyed lygnrgtfah nprmclkgft
+      121 fhrrvygpyr lkgplmrkgw kqwmddgspe ltpetkrkyk fdsrflddml rvswdtafty
+      181 aakayvviat rysgeagarr lreqgyapem iemmkgagtr ttkfragmpv lgivgkmgvt
+      241 rfnggiqsll dtwirkvgpd qaqggrywsn ytwhgdqnpa hpwwsgaqgs didlsdmrfs
+      301 klntswgknf venkmpeahw kleciergar vvvitpeynp tayradywip lrpesdgslf
+      361 lgamkiivde nmhdidflks ftdapilvrt dtlqyldprd viadyklpdf sksysgriqs
+      421 lkpeqierlg gmmvwdlnkk qavplhreqv gwhytnsgid aalngtyrvk llngreidam
+      481 pvwqmylvhf qdydldtvhq icrspkdliv rwardsgtik paaihngegt chyfhqtina
+      541 rgaamvliic gnvgkfgtgq htwagnykag vwtatpwsga glavhtgedp fnittnpnah
+      601 gkeiktksyy ygeevgywnh gdtalivntp kygrkvftgk thmptpsktr wvanvnvlnn
+      661 akhhydmvrn vdpniemlit qdiemtsdvn hndiafacns wmeftypemt vtvsnpwvqi
+      721 wkggirplyd trndldtaag vaakmseitg dkrmkdyfam vylnrvdvyv qrmldasstf
+      781 ygysadtmlk sekgwmvmvr typrhpfwee tneskpmwtr sgryetyrie peaieygenf
+      841 ishregpeat pylpnaiftt npycrpddyg ipitaqhhdd ktvrnikltw heikrhsnpl
+      901 wekgyqfycv tpktrhrvhs qwsvndwvqi yesnfgdpyr mdkrtpgvge hqlhinpqaa
+      961 kdrgindgdy vyvdgnpvdr pyrgwkpsdp yykvarlmir akynpaypyh vtmakhapyv
+     1021 staksvkghe trpdgraiav dtgyqsnfry gaqqsftrnw lmpmhqtdsl pgkhavawkf
+     1081 kwgyqvdhha intvpkecli ritkaedggi gargpwepvr tgftpgqene fmikwlkgeh
+     1141 ikikv
+//
+
+LOCUS       ALA60417                1145 aa            linear   BCT 25-AUG-2015
+DEFINITION  putative Nitrite oxidoreductase, alpha subunit [Nitrospira
+            moscoviensis].
+ACCESSION   ALA60417
+VERSION     ALA60417.1  GI:922309594
+DBLINK      BioProject: PRJNA283178
+            BioSample: SAMN03702441
+DBSOURCE    accession CP011801.1
+KEYWORDS    .
+SOURCE      Nitrospira moscoviensis
+  ORGANISM  Nitrospira moscoviensis
+            Bacteria; Nitrospirae; Nitrospirales; Nitrospiraceae; Nitrospira.
+REFERENCE   1  (residues 1 to 1145)
+  AUTHORS   Koch,H., Lucker,S., Albertsen,M., Kitzinger,K., Herbold,C.,
+            Spieck,E., Nielsen,P.H., Wagner,M. and Daims,H.
+  TITLE     Expanded metabolic versatility of ubiquitous nitrite-oxidizing
+            bacteria from the genus Nitrospira
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 112 (36), 11371-11376 (2015)
+   PUBMED   26305944
+REFERENCE   2  (residues 1 to 1145)
+  AUTHORS   Koch,H., Albertsen,M., Kitzinger,K., Herbold,C., Lucker,S.,
+            Spieck,E., Nielsen,P.H., Wagner,M. and Daims,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2015) Department of Microbiology and Ecosystem
+            Science, University of Vienna, Althanstrasse 14, Vienna 1090,
+            Austria
+COMMENT     Source DNA is available from Dr. Holger Daims
+            (daims@microbial-ecology.net).
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC genomics workbench v. 6.5.1
+            Genome Coverage       :: 238
+            Sequencing Technology :: Illumina
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1145
+                     /organism="Nitrospira moscoviensis"
+                     /strain="NSP M-1"
+                     /db_xref="taxon:42253"
+                     /country="Russia: Moscow"
+     Protein         1..1145
+                     /product="putative Nitrite oxidoreductase, alpha subunit"
+                     /EC_number="1.7.99.4"
+                     /function="1.4.2 : Electron acceptor"
+     Region          5..1018
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          66..827
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(117,251,253..254,258,306..307,309,312..313,334..336,
+                     356,527,654..656,681..683,686,698..699,704)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          905..>973
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:299124"
+     CDS             1..1145
+                     /locus_tag="NITMOv2_4033"
+                     /coded_by="complement(CP011801.1:3809260..3812697)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3 : Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId : 10504245, 14725769, 15122898,
+                     2674654, 9585550; Product type pe : putative enzyme"
+                     /transl_table=11
+ORIGIN      
+        1 mflsrrqflk vsagtvaava vadkvlalta lqpvievgnp lgdypdrswe rvyhdqyryd
+       61 ssftwccspn dthacriraf vrngvvmrve qnydhqtyed lygnrgtfah nprmclkgyt
+      121 fhrrvygpyr lkgplmrkgw kqwmddgspe ltpetkrkyk fdsrflddml rvswdtafty
+      181 aakamiivat rysgeagarr lreqgyapem iemmkgagtr cfkhragmpv lgivgkmgnt
+      241 rmngginall dtwirkvqpe qaqggrywsn ytwhgdqnpa hpwwsgaqgs didlsdmrfs
+      301 klntswgknf venkmpeahw kleciergar vvvitpeynp tayradywmp lrpesdgslf
+      361 lgamkiivde nmhdidflke ftdapilvrt dtlqyldprd viadyklpdf sksysgriqs
+      421 lkpeqierlg gmmvwdlnkk qavplhreqv gwhyknsgid aalngtfrvk llngreidam
+      481 pvwqmylvhf qdydldtvhq icrtpkdliv rwardsgtik paaihngegt chyfhqtina
+      541 rgaamvliic gnvgkfgtgq htwagnykag twtatpwsga giavhtgedp fnittdpnvh
+      601 gkeiktksyy ygeevgywnh gdtalivntp kygrkvftgk thmptpsklr wvtnvnvlnn
+      661 skhhydmvrn vdpnietlit qdiemtsdvn hndiafacnt wmeftypemt vtvsnpwvqv
+      721 wkggirplyd trndldtfag taaklsemtg dkrmkdyfam vylnrvdvyv qrmldasstf
+      781 ygysadtmlk sekgwmvmvr typrhpfwee tneskpmwtr sgryenyrie peaieygenf
+      841 ishregpeat pylpnaiftt npycrpddyg ipvtaqhhdd ktvrniklsw heikrhsnpl
+      901 wekgyqfycv tpktrhrvhs qwsvndwvqi yesnfgdpyr mdkrtpgvge hqlhinpqaa
+      961 kdrgindgdy vyvdgnpvdr pyrgwkpsdp yykvarlmir akynpsypyh vtmakhapyv
+     1021 staksvkghe trpdgraiav dtgyqsnfry gaqqsftrsw lmpmhqtdsl pgkhaiawkf
+     1081 kwgyqvdhha inttpkecli ritkaedggi gargpwepvr tgftpgqene fmikwlkgeh
+     1141 ikikv
+//
+
+LOCUS       ALA60908                1145 aa            linear   BCT 25-AUG-2015
+DEFINITION  putative Nitrite oxidoreductase, alpha subunit [Nitrospira
+            moscoviensis].
+ACCESSION   ALA60908
+VERSION     ALA60908.1  GI:922310085
+DBLINK      BioProject: PRJNA283178
+            BioSample: SAMN03702441
+DBSOURCE    accession CP011801.1
+KEYWORDS    .
+SOURCE      Nitrospira moscoviensis
+  ORGANISM  Nitrospira moscoviensis
+            Bacteria; Nitrospirae; Nitrospirales; Nitrospiraceae; Nitrospira.
+REFERENCE   1  (residues 1 to 1145)
+  AUTHORS   Koch,H., Lucker,S., Albertsen,M., Kitzinger,K., Herbold,C.,
+            Spieck,E., Nielsen,P.H., Wagner,M. and Daims,H.
+  TITLE     Expanded metabolic versatility of ubiquitous nitrite-oxidizing
+            bacteria from the genus Nitrospira
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 112 (36), 11371-11376 (2015)
+   PUBMED   26305944
+REFERENCE   2  (residues 1 to 1145)
+  AUTHORS   Koch,H., Albertsen,M., Kitzinger,K., Herbold,C., Lucker,S.,
+            Spieck,E., Nielsen,P.H., Wagner,M. and Daims,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2015) Department of Microbiology and Ecosystem
+            Science, University of Vienna, Althanstrasse 14, Vienna 1090,
+            Austria
+COMMENT     Source DNA is available from Dr. Holger Daims
+            (daims@microbial-ecology.net).
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC genomics workbench v. 6.5.1
+            Genome Coverage       :: 238
+            Sequencing Technology :: Illumina
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1145
+                     /organism="Nitrospira moscoviensis"
+                     /strain="NSP M-1"
+                     /db_xref="taxon:42253"
+                     /country="Russia: Moscow"
+     Protein         1..1145
+                     /product="putative Nitrite oxidoreductase, alpha subunit"
+                     /EC_number="1.7.99.4"
+                     /function="1.4.2 : Electron acceptor"
+     Region          5..973
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          66..827
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(117,251,253..254,258,306..307,309,312..313,334..336,
+                     356,527,654..656,681..683,686,698..699,704)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          905..>973
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:299124"
+     CDS             1..1145
+                     /locus_tag="NITMOv2_4534"
+                     /coded_by="complement(CP011801.1:4275274..4278711)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3 : Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId : 12910261, 1321049, 14725769, 2674654,
+                     8664273, 9516445; Product type pe : putative enzyme"
+                     /transl_table=11
+ORIGIN      
+        1 mflsrrqflk vssgtvaaam ladkalalta lqpvvevgnp lgeypdrswe rvyhdqyryd
+       61 ssftwccspn dthacriraf vrngvvmrve qnydhqtyed lygnrgtfah nprmclkgyt
+      121 fhrrvygpyr lkgplmrkgw kewmdagspe ltpdvkrkyk fdsrflddml rvswdtafty
+      181 aakamiivat rysgeagarr lreqgyapem iemmkgagtr cfkhragmpv lgilgkmgnt
+      241 rmngginall dtwirkvnpe qaqggrywsn ytwhgdqnpa hpwwsgaqgs didlsdmrfs
+      301 klntswgknf venkmpeahw kleciergar vvvitpeynp tayradywmp lrpesdgslf
+      361 lgamkiivde nmhdidflks ftdapilvrt dtlqyldprd vvadykfpdf sksysgriqs
+      421 lkpeqierlg gmmvwdlnkk qavplhreqv gwhyvnsgid aaltgtyrvk llngreidam
+      481 pvwqmylvhf qdydldtvhq icrtpkdliv rwardsgtik paaihngegt chyfhqtina
+      541 rgaamvliit gnvgkfgtgq htwagnykag twtatpwsga glavhtgedp fnittdpnah
+      601 gkeiktksyy ygeevgywnh gdtalivntp kygrkvftgk thmptpsklr wvtnvnvlnn
+      661 akhhydmvrn vdpnietlit qdiemtsdvn hndiafacns wmeftypemt vtvsnpwvqi
+      721 wkggirplyd trndldtfag vaaklsdmtg dkrmkdyfam vyanrvdvya qrmldasstf
+      781 ygysadvmlk sekgwmvmvr typrhpfwee tneskpmwtr sgryenyrie peaieygenf
+      841 ishregpeat pylpnaiftt npycrpddyg ipitaqhhdd ktvrniklsw heikrhsnpl
+      901 wekgyqfycv tpktrhrvhs qwsvndwvqi yesnfgdpyr mdkrtpgvge hqlhinpqaa
+      961 kdrgindgdy vyvdgnpvdr pyrgwkpsdp yykvarlmir akynpaypyh vtmakhapyv
+     1021 staksvkghe trpdgraiav dtgyqsnfry gaqqsftrnw lmpmhqtdsl pgkhaiawkf
+     1081 kwgyqvdhha intvpkecli ritkaedggi gargpwepvr tgftpgqene fmikwlkgeh
+     1141 ikikv
+//
+
+LOCUS       ALA60912                1145 aa            linear   BCT 25-AUG-2015
+DEFINITION  putative Nitrite oxidoreductase, alpha subunit [Nitrospira
+            moscoviensis].
+ACCESSION   ALA60912
+VERSION     ALA60912.1  GI:922310089
+DBLINK      BioProject: PRJNA283178
+            BioSample: SAMN03702441
+DBSOURCE    accession CP011801.1
+KEYWORDS    .
+SOURCE      Nitrospira moscoviensis
+  ORGANISM  Nitrospira moscoviensis
+            Bacteria; Nitrospirae; Nitrospirales; Nitrospiraceae; Nitrospira.
+REFERENCE   1  (residues 1 to 1145)
+  AUTHORS   Koch,H., Lucker,S., Albertsen,M., Kitzinger,K., Herbold,C.,
+            Spieck,E., Nielsen,P.H., Wagner,M. and Daims,H.
+  TITLE     Expanded metabolic versatility of ubiquitous nitrite-oxidizing
+            bacteria from the genus Nitrospira
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 112 (36), 11371-11376 (2015)
+   PUBMED   26305944
+REFERENCE   2  (residues 1 to 1145)
+  AUTHORS   Koch,H., Albertsen,M., Kitzinger,K., Herbold,C., Lucker,S.,
+            Spieck,E., Nielsen,P.H., Wagner,M. and Daims,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2015) Department of Microbiology and Ecosystem
+            Science, University of Vienna, Althanstrasse 14, Vienna 1090,
+            Austria
+COMMENT     Source DNA is available from Dr. Holger Daims
+            (daims@microbial-ecology.net).
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC genomics workbench v. 6.5.1
+            Genome Coverage       :: 238
+            Sequencing Technology :: Illumina
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1145
+                     /organism="Nitrospira moscoviensis"
+                     /strain="NSP M-1"
+                     /db_xref="taxon:42253"
+                     /country="Russia: Moscow"
+     Protein         1..1145
+                     /product="putative Nitrite oxidoreductase, alpha subunit"
+                     /EC_number="1.7.99.4"
+                     /function="1.4.2 : Electron acceptor"
+     Region          5..1018
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          66..827
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(117,251,253..254,260,306..307,309,312..313,334..336,
+                     356,527,614..616,681..683,686,698..699,704)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          905..>973
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:299124"
+     CDS             1..1145
+                     /locus_tag="NITMOv2_4538"
+                     /coded_by="complement(CP011801.1:4282377..4285814)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3 : Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId : 12910261, 1321049, 14725769, 2674654,
+                     8664273, 9516445; Product type pe : putative enzyme"
+                     /transl_table=11
+ORIGIN      
+        1 mflsrrqflk vsagtvaava vadkvlalta lqpvievgnp lgdypdrswe rvyhdqyryd
+       61 ssftwccspn dthacriraf vrngvvmrve qnydhqtyed lygnrgtfah nprmclkgft
+      121 fhrrvygpyr lkgplmrkgw kqwmddgspe ltpetkrkyk fdsrflddml rvswdtafty
+      181 aakayiivat rysgeagarr lreqgyapem iemmkgagtr cfkhragmpv lgilgkmgnt
+      241 rmngginall dtwirkvspd qaqggrywsn ytwhgdqnpa hpwwsgaqgs didlsdmrfs
+      301 klntswgknf venkmpeahw kleciergar vvvitpeynp tayradywmp lrpesdgalf
+      361 lgamkimvde nmhdidflkq ftdapilvrt dtlqyldprd vvadykfpdf sksysgriqs
+      421 lkpeqierlg gmmvwdlnkk qavplhreqv gwhyvnsgid aalngtyrvk llngreidam
+      481 pvwqmylvhf qdydldtthq icrtpkdliv rwardsgtik paaihngegt chyfhqtena
+      541 raaamvliit gnvgkfgtgq htwagnykag twtatpwsga giavhtgedp fnittdpnah
+      601 gkeiktksyy ygeevgywnh gdtalivntp kygrkvftgk thmptpskfr wvvnvnvlnn
+      661 akhhydmvrn vdpnietlit qdiemtsdvn hndiafacns wmeftypemt vtvsnpwvqi
+      721 wkggirplyd trndldtfag vaaklsdmtg dkrmkdyfam vyanrvdvya qrmldasstf
+      781 ygysadvmlk sekgwmvmvr typrhpfwee tneskpmwtr sgryenyrie peaieygenf
+      841 ishregpeat pylpnaiftt npfvrpddyg ipitaqhhdd ktvrniklsw deikrhsnpl
+      901 wekgyqfycv tpktrhrvhs qwsvndwvqi yesnfgdpyr mdkrtpgvge hqlhinpqaa
+      961 kdrgindgdy vyvdgnpvdr pyrgwkpsdp yykvarlmir akynpsypyh vtmakhapyv
+     1021 staksvkghe trpdgraiav dtgyqsnfry gaqqsftrnw lmpmhqtdsl pgkhaiawkf
+     1081 kwgyqvdhha intvpkecli ritkaedggi gargpwepvr tgftpgqene fmikwlkgeh
+     1141 ikikv
+//
+
+LOCUS       ALA56694                1145 aa            linear   BCT 25-AUG-2015
+DEFINITION  putative Nitrite oxidoreductase, alpha subunit [Nitrospira
+            moscoviensis].
+ACCESSION   ALA56694
+VERSION     ALA56694.1  GI:922305871
+DBLINK      BioProject: PRJNA283178
+            BioSample: SAMN03702441
+DBSOURCE    accession CP011801.1
+KEYWORDS    .
+SOURCE      Nitrospira moscoviensis
+  ORGANISM  Nitrospira moscoviensis
+            Bacteria; Nitrospirae; Nitrospirales; Nitrospiraceae; Nitrospira.
+REFERENCE   1  (residues 1 to 1145)
+  AUTHORS   Koch,H., Lucker,S., Albertsen,M., Kitzinger,K., Herbold,C.,
+            Spieck,E., Nielsen,P.H., Wagner,M. and Daims,H.
+  TITLE     Expanded metabolic versatility of ubiquitous nitrite-oxidizing
+            bacteria from the genus Nitrospira
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 112 (36), 11371-11376 (2015)
+   PUBMED   26305944
+REFERENCE   2  (residues 1 to 1145)
+  AUTHORS   Koch,H., Albertsen,M., Kitzinger,K., Herbold,C., Lucker,S.,
+            Spieck,E., Nielsen,P.H., Wagner,M. and Daims,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2015) Department of Microbiology and Ecosystem
+            Science, University of Vienna, Althanstrasse 14, Vienna 1090,
+            Austria
+COMMENT     Source DNA is available from Dr. Holger Daims
+            (daims@microbial-ecology.net).
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC genomics workbench v. 6.5.1
+            Genome Coverage       :: 238
+            Sequencing Technology :: Illumina
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1145
+                     /organism="Nitrospira moscoviensis"
+                     /strain="NSP M-1"
+                     /db_xref="taxon:42253"
+                     /country="Russia: Moscow"
+     Protein         1..1145
+                     /product="putative Nitrite oxidoreductase, alpha subunit"
+                     /EC_number="1.7.99.4"
+                     /function="1.4.2 : Electron acceptor"
+     Region          5..1018
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          66..827
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(117,251,253..254,260,306..307,309,312..313,334..336,
+                     356,527,654..656,681..683,686,698..699,704)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          905..>973
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:299124"
+     CDS             1..1145
+                     /locus_tag="NITMOv2_0255"
+                     /coded_by="complement(CP011801.1:244623..248060)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3 : Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId : 10504245, 14725769, 15122898,
+                     2674654, 9585550; Product type pe : putative enzyme"
+                     /transl_table=11
+ORIGIN      
+        1 mflsrrqflk vsagtvaava vadkvlalta lqpvievgnp lgdypdrswe rvyhdqyryd
+       61 ssftwccspn dthacriraf vrngvvmrve qnydhqtyed lygnrgtfah nprmclkgft
+      121 fhrrvygpyr lkgplmrkgw kqwmddgspe ltpetkrkyk fdsrflddml rvswdtafty
+      181 aakamiivat rysgeagarr lreqgyapem iemmkgagtr cfkhragmpv lgilgkmgnt
+      241 rmngginall dtwirkvspd qaqggrywsn ytwhgdqnpa hpwwsgaqgs didlsdmrfs
+      301 klntswgknf venkmpeahw kleciergar vvvitpeynp tayradywmp lrpesdgslf
+      361 lgamkiivde nmhdidflks ftdapilvrt dtlqyldprd vvadykfpdf sksysgriqs
+      421 lkpeqierlg gmmvwdlnkk qavplhreqv gwhyvnsgid aaltgtyrvk llngreidam
+      481 pvwqmylvhf qdydldtvhq icrtpkdliv rwardsgtik paaihngegt chyfhqtina
+      541 rgaamvliit gnvgkfgtgq htwagnykag twtatpwsga glavhtgedp fnittdpnah
+      601 gkeiktksyy ygeevgywnh gdtalivntp kygrkvftgk thmptpsklr wvtnvnvlnn
+      661 akhhydmvrn vdpnietlit qdiemtsdvn hndiafacns wmeftypemt vtvsnpwvqi
+      721 wkggirplyd trndldtfag taaklsemtg dkrmkdyfam vylnrvdvya qrmldasstf
+      781 ygysadtmlk sekgwmvmvr typrhpfwee tneskpmwtr sgryenyrie peaieygenf
+      841 ishregpeat pylpnaiftt npycrpddyg ipitaqhhdd ktvrniklsw heikrhsnpl
+      901 wekgyqfycv tpktrhrvhs qwsvndwvqi yesnfgdpyr mdkrtpgvge hqlhinpqaa
+      961 kdrgindgdy vyvdgnpvdr pyrgwkpsdp yykvarlmir akynpsypyh vtmakhapyv
+     1021 staksvkghe trpdgraiav dtgyqsnfry gaqqsftrnw lmpmhqtdsl pgkhaiawkf
+     1081 kwgyqvdhha intvpkecli ritkaedggi gargpwepvr tgftpgqene fmikwlkgeh
+     1141 ikikv
+//
+
+LOCUS       CUS31266                1145 aa            linear   BCT 17-MAR-2016
+DEFINITION  Nitrite oxidoreductase, alpha subunit [Candidatus Nitrospira
+            nitrosa].
+ACCESSION   CUS31266
+VERSION     CUS31266.1  GI:953252401
+DBLINK      BioProject: PRJEB11445
+            BioSample: SAMEA3638995
+DBSOURCE    embl accession CZQA01000001.1
+KEYWORDS    .
+SOURCE      Candidatus Nitrospira nitrosa
+  ORGANISM  Candidatus Nitrospira nitrosa
+            Bacteria; Nitrospirae; Nitrospirales; Nitrospiraceae; Nitrospira.
+REFERENCE   1
+  AUTHORS   Luecker,Sebastian. and Luecker,Sebastian.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2015) Univie, Department of Microbiology, Radboud
+            University, Heyendaalseweg 135, 6525 AJ Nijmegen, Netherlands
+FEATURES             Location/Qualifiers
+     source          1..1145
+                     /organism="Candidatus Nitrospira nitrosa"
+                     /isolate="COMA1"
+                     /isolation_source="RAS biofilter"
+                     /db_xref="taxon:1742972"
+                     /note="contig: COMA1_Contig_1"
+     Protein         1..1145
+                     /product="Nitrite oxidoreductase, alpha subunit"
+                     /EC_number="1.7.99.4"
+     Region          5..973
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          66..754
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(117,272,274..276,306..307,309,312..313,334..336,356,
+                     527,573..575,681..683,686,698..699,704)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          <637..827
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Region          905..>971
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:299124"
+     CDS             1..1145
+                     /gene="nxrA1"
+                     /locus_tag="COMA1_10021"
+                     /coded_by="complement(CZQA01000001.1:18436..21873)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2b : Function of strongly homologous gene;
+                     Product type e : enzyme"
+                     /transl_table=11
+                     /db_xref="UniProtKB/TrEMBL:A0A0S4L817"
+ORIGIN      
+        1 mvitrrqfmk asagtiaaia vadkvlalta lqpvtevgnp lgeypdrswe rvyhdqyryd
+       61 ssftwvcspn dthacriraf vrngvvmrve qnydhqtyed lygnrgtfah nprmclkgft
+      121 fhrrvygpyr lkgplirkgw kqwmddgspe ltpetkrkyk fasrflddml rvswdtafty
+      181 aakamvviat rysgeagarr lreqgyapem vemmkgagvr cfkhragmpi lgfigkhsnt
+      241 rfnnsvlpvl dtwvrkvgpd qaqggrywnn ytwhgdqdps qpfwngtqnc dvdlsdmrft
+      301 kfntswgknf venkmpeahw klesiergar lavitpeynp taqradywip lrpqsdgalf
+      361 lgackiilde nmhdvdylkq ftdmpllvrt dtlqyldpre vipdykfpdf shsysgriqa
+      421 lkpeyierlg gfmvwdlakq kavplhreqv gwhfdssgiq paltgtyrvk llngreidaq
+      481 piyqmyqihf qdydldtthq itrspkdllv rwardsgtik paaihngegv chyfhmtsng
+      541 raaalvltlt gnigkfgsgc htwsgnykvg iwsatpwsgs gsgvhlsedp wqinldpnah
+      601 gkeikyksyy ygeepgywnh gdtalivntp kygrkvftgk thmptpsklr wvvnvnllnn
+      661 akhhydmvrn vdpnieclit qdiemtsdvn hadiafavns wmeftypemt atvsnpwvqi
+      721 wkggirplyd trndadtfag vaarlaeitg ekrmrdvfhf vyenrvdvya qrlldasstf
+      781 ygysadvllk sekgwmvmvr typrhplwee tneskpmwtr sgriesyrve peaieygenf
+      841 ishregpeat pylpnaiftt nphvrpddyg ipvtaqhhdd ktirniklpw veikrhtnpl
+      901 wekgyqfycv tpktrhrvhs qwsvndwvqi yesnfgdpyr mdkrtpgvge hqvhinpqaa
+      961 kdrgindgdy vyidgnpvdr pyrgwkpsdp yykvarlmir akynpaypyh vtmakhapyv
+     1021 stpksvkghe trpdgraiai dtgyqsnfry gaqqsftrsw lmpmhqtdsl pgksanglkf
+     1081 kwgfeidhha vntvpkecli ritkaedggi gargpwepvr tgftpgqene fmikwlkgeh
+     1141 ikikv
+//
+
+LOCUS       CUS38776                1145 aa            linear   BCT 17-MAR-2016
+DEFINITION  Nitrite oxidoreductase, alpha subunit [Candidatus Nitrospira
+            nitrificans].
+ACCESSION   CUS38776
+VERSION     CUS38776.1  GI:953246313
+DBLINK      BioProject: PRJEB11446
+            BioSample: SAMEA3638996
+DBSOURCE    embl accession CZPZ01000032.1
+KEYWORDS    .
+SOURCE      Candidatus Nitrospira nitrificans
+  ORGANISM  Candidatus Nitrospira nitrificans
+            Bacteria; Nitrospirae; Nitrospirales; Nitrospiraceae; Nitrospira.
+REFERENCE   1
+  AUTHORS   Luecker,Sebastian. and Luecker,Sebastian.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2015) Univie, Department of Microbiology, Radboud
+            University, Heyendaalseweg 135, 6525 AJ Nijmegen, Netherlands
+FEATURES             Location/Qualifiers
+     source          1..1145
+                     /organism="Candidatus Nitrospira nitrificans"
+                     /isolate="COMA2"
+                     /isolation_source="RAS biofilter"
+                     /db_xref="taxon:1742973"
+                     /note="contig: COMA2_Contig_5"
+     Protein         1..1145
+                     /product="Nitrite oxidoreductase, alpha subunit"
+                     /EC_number="1.7.99.4"
+     Region          5..973
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          66..754
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(117,272,274..276,306..307,309,312..313,334..336,356,
+                     527,582..583,656,681..683,686,698..699,704)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          905..>971
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:299124"
+     CDS             1..1145
+                     /gene="nxrA1"
+                     /locus_tag="COMA2_50263"
+                     /coded_by="CZPZ01000032.1:225595..229032"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2b : Function of strongly homologous gene;
+                     Product type e : enzyme"
+                     /transl_table=11
+                     /db_xref="UniProtKB/TrEMBL:A0A0S4LQF4"
+ORIGIN      
+        1 mlvsrrqfmk atagtiaaaa vadkvlalta lqpvievgnp lgeypdrswe rvyhdqyryd
+       61 ssftwvcspn dthacriraf vrngvvmrve qnydhqtyed lygnrgtfah nprmclkgft
+      121 fhrrvygpyr lkgplmrkgw kqwaddgspe ltpeakrkyk fdsrflddml rvswdtafty
+      181 aakamiviat rysgeagarr lreqgyapem iemmkgagvr cfkhragmpi lgfigkhsnt
+      241 rfnnsvlpll dtwirkvgpd qaqggrywnn ytwhgdqdps qpfwngtqnc dvdlsdmrft
+      301 kfntswgknf venkmpeahw klesiergar iavitpeynp taqradywip lrpqsdgalf
+      361 lgackiilde nmqdidylkq ftdmpllvrt dtlqyldprd viqdykfpdf shsysgriqa
+      421 lkpeyierlg gfmvwdmakk qavplhreqv gwhfdksgie paltgtyrvk llngreidal
+      481 piyqlylihl qdydldtthq itrspkdllv rwardsgtik paaihngegv chyfhmtang
+      541 raaalvltlt gnigkfgsgc htwsgnykvg iwnatpwsgv gggvhlsedp whinldanah
+      601 gkeikyrnyy ygeepaywnh gdtalivntp kygrkvftgk thmptpskfr wvvnvnllnn
+      661 akhhydmvrn vdpnieclit qdiemtsdvn hadiafavns wmeftypemt atvsnpwvqi
+      721 wkggirplyd trndadtfag vaaklaeitg ekrmrdvfhf vyenrvdvya qrlldasstf
+      781 ygysadvllk sekgwmvmvr typrhplwee tneskpmwtr sgriesyrie peaieygenf
+      841 ishregpeat pylpnaiftt npyvrpddyg ipiaaqhhdd kmirniklaw qeikrhsnpl
+      901 wekgyqfycv tpktrhrvhs qwsvndwvqi yesnfgdpyr mdkrtpgvge hqvhinpqaa
+      961 kdrgindgdy vyidgnpvdr pyrgwkpsdp yykvarlmir akynpaypyh vtmakhapyv
+     1021 staksvkghe trpdgraiai dtgyqsnfry gaqqsftrsw lmpmhqtdsl pgksanglkf
+     1081 kwgfeidhha vntvpkecli ritkaedggi gargpwepvr tgftpgqene fmikwlkgeh
+     1141 ikikv
+//
+
+LOCUS       KXK18062                1173 aa            linear   BCT 24-FEB-2016
+DEFINITION  nitrite oxidoreductase subunit alpha [Armatimonadetes bacterium
+            OLB18].
+ACCESSION   KXK18062
+VERSION     KXK18062.1  GI:1000255144
+DBLINK      BioProject: PRJNA274364
+            BioSample: SAMN03372538
+DBSOURCE    accession JZQX01000108.1
+KEYWORDS    .
+SOURCE      Armatimonadetes bacterium OLB18 (bioreactor metagenome)
+  ORGANISM  Armatimonadetes bacterium OLB18
+            Bacteria; Armatimonadetes.
+REFERENCE   1  (residues 1 to 1173)
+  AUTHORS   Speth,D.R., In 't Zandt,M.H., Guerrero-Cruz,S., Dutilh,B.E. and
+            Jetten,M.S.
+  TITLE     Genome-based microbial ecology of anammox granules in a full-scale
+            wastewater treatment system
+  JOURNAL   Nat Commun 7, 11172 (2016)
+   PUBMED   27029554
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 1173)
+  AUTHORS   Speth,D.R., In T Zandt,M., Guerrero Cruz,S., Jetten,M.S. and
+            Dutilh,B.E.
+  TITLE     Improved understanding of the partial-nitritation anammox process
+            through 23 genomes representing the majority of the microbial
+            community
+  JOURNAL   Unpublished
+REFERENCE   3  (residues 1 to 1173)
+  AUTHORS   Speth,D.R., In T Zandt,M., Guerrero Cruz,S., Jetten,M.S. and
+            Dutilh,B.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAR-2015) Ecological Microbiology, Radboud University
+            Nijmegen, Heyendaalseweg 135, Nijmegen, The Netherlands
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date         :: FEB-2015
+            Assembly Method       :: CLC NGS Cell v. 7.5.1; SPAdes v. 3.5.0
+            Genome Coverage       :: 10.0x
+            Sequencing Technology :: IonTorrent
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1173
+                     /organism="Armatimonadetes bacterium OLB18"
+                     /isolate="OLB18"
+                     /isolation_source="partial-nitritation anammox (PNA)
+                     reactor; full scale (600m3) reactor for the removal of
+                     ammonium from wastewater from the potato processing
+                     industry"
+                     /db_xref="taxon:1617424"
+                     /environmental_sample
+                     /country="Netherlands: Olburgen"
+                     /lat_lon="52.048138 N 6.144261 E"
+                     /collection_date="Oct-2013"
+                     /note="metagenomic; derived from metagenome: bioreactor
+                     metagenome"
+     Protein         1..1173
+                     /product="nitrite oxidoreductase subunit alpha"
+                     /EC_number="1.7.99.4"
+     Region          65..772
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:299123"
+     Site            order(116,270,272..274,304..305,307,310..311,332..334,355,
+                     528,586..587,657,682..684,687,699..700,707)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          915..>983
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:299124"
+     CDS             1..1173
+                     /gene="nxrA"
+                     /locus_tag="UZ18_ATM001000935"
+                     /coded_by="complement(JZQX01000108.1:12444..15965)"
+                     /inference="ab initio prediction:Prodigal:2.60"
+                     /inference="similar to AA sequence:GenBank:YP_003798853.1"
+                     /transl_table=11
+ORIGIN      
+        1 mnkvsrrefl ivtgaaagag iwagrsfsll kavegvknpl dyypnrgweh iyrdqyaydd
+       61 sftyvcspnd thacrmraft rngvvvrteq nydvdryadl qgntstahwh prgcskgftl
+      121 hrrvygpyrl kypmvrqgwk rwaddgfpyl tkelrkkynf ttrgldtfvr lswdetfdya
+      181 argmvaiakt ysgdvghqrl aaegyppeml eamhhagtkc fkhrggmgll gvigkygmyr
+      241 fsqmlallds hvrgvgpeea qggrkwsnyt whgdqapghp yvhglqaadg dfndlrlsrl
+      301 hiqcgknlve nkmpeshffn elmerggkiv vitpeygppa tradywlpvr pgctdtalfl
+      361 gitkvlmdeg kydaefvkqf tdfpllirtd tlkrlhakev fpgykpslsk dgysfktqgl
+      421 kddqyaklgd yvvfdkksss lkainrdqvg kvmaeagldp nlefkgkikl vsgeevevqt
+      481 lwelykvnlr dydlqtvsei tstpkelikr laddignpen wpvaihigeg inhwfhatlg
+      541 nramylplml tgnigkpgsg qytwagnyka alfqgsqwtg pgflgwised pfnpnldpka
+      601 rakdiklaky akdeepaywn rgdrplivnt pgagrkvftg dthmptptkv lwftnvnlfn
+      661 nakhaydmlf nvnpgidlim sqdiemtstc eysdfilpan swmefetyei tascsnpflq
+      721 iwkggikpvy dtkddvaima gvakrmgeil ederfasfwk falegrtevy idrlmdgstp
+      781 mhgyttkdim dgkygepgaa llmfrtypri plyemvhdhv pcwtdtgrln aycdipeaie
+      841 hgenfivhre gpeatpylpn vivssnpfir pnnfgitpsm lqanvldadl rtvannklsw
+      901 aevkgtqnpl wkqgfrffcl tpktrhrvhs qwssvdwhml wdsnftdayr kdkrnphfge
+      961 hqmhmnpeaa kamgiqdgdy vyvdanpadr pyrprptyga eqalppegqs yrtepeahyr
+     1021 kvtrlllrvk ynaaypygvv mmkhapnlat ektvhahetr sdgraishdt gyqsnlrygc
+     1081 qqsltrdwsm pmhqtdtlfh kakvamafmf ggeadnhavn tvpketlvrv vraeaggmgg
+     1141 vgiwqpattg ytpanenefm ksylsgdive vkk
+//
+
+LOCUS       KHE93157                1148 aa            linear   BCT 25-NOV-2014
+DEFINITION  nitrite oxidoreductase alpha subunit [Candidatus Scalindua brodae].
+ACCESSION   KHE93157
+VERSION     KHE93157.1  GI:726046410
+DBLINK      BioProject: PRJNA262561
+            BioSample: SAMN03083676
+DBSOURCE    accession JRYO01000071.1
+KEYWORDS    .
+SOURCE      Candidatus Scalindua brodae (bioreactor metagenome)
+  ORGANISM  Candidatus Scalindua brodae
+            Bacteria; Planctomycetes; Planctomycetia; Candidatus Brocadiales;
+            Candidatus Brocadiaceae; Candidatus Scalindua.
+REFERENCE   1  (residues 1 to 1148)
+  AUTHORS   Speth,D.R., Russ,L., Kartal,B., Op den Camp,H.J., Dutilh,B.E. and
+            Jetten,M.S.
+  TITLE     Draft Genome Sequence of Anammox Bacterium 'Candidatus Scalindua
+            brodae,' Obtained Using Differential Coverage Binning of Sequencing
+            Data from Two Reactor Enrichments
+  JOURNAL   Genome Announc 3 (1) (2015)
+   PUBMED   25573945
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 1148)
+  AUTHORS   Speth,D.R., Russ,L., Kartal,B., Op den Camp,H.J., Dutilh,B.E. and
+            Jetten,M.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-OCT-2014) Ecological Microbiology, Radboud University
+            Nijmegen, Heyendaalseweg 135, Nijmegen 6525AJ, The Netherlands
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date         :: 23-SEP-2014
+            Assembly Method       :: CLC NGS Cell v. 7.0.4
+            Genome Coverage       :: 50.0x
+            Sequencing Technology :: IonTorrent
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1148
+                     /organism="Candidatus Scalindua brodae"
+                     /isolate="RU1"
+                     /isolation_source="two long term enrichment bioreactors
+                     used to enrich specifically for anammox bacteria; the
+                     reactors are fed with a mineral medium containing no
+                     carbon source other than CO2 and only NO2 and NH4 as
+                     electron acceptor/donor respectively; one reactor was
+                     described in Russ et al 2014 (PMID 24750895), the other
+                     reactor was the enrichment used as the seed for the
+                     experimental reactor described in Russ et al.; the seed
+                     reactor was in turn inoculated from a previous bioreactor
+                     which was started with biomass from a sediment in the
+                     Gullmar Fjord, described in Van de Vossenberg et al 2008
+                     (PMID 18462401); This environmental sampling was, however,
+                     over 8 years ago."
+                     /db_xref="taxon:237368"
+                     /environmental_sample
+                     /country="Netherlands"
+                     /lat_lon="51.823672 N 5.868934 E"
+                     /collection_date="May-2012"
+                     /note="metagenomic; derived from metagenome: bioreactor
+                     metagenome"
+     Protein         1..1148
+                     /product="nitrite oxidoreductase alpha subunit"
+     Region          5..1021
+                     /region_name="DMSO_red_II_alp"
+                     /note="DMSO reductase family type II enzyme, molybdopterin
+                     subunit; TIGR03479"
+                     /db_xref="CDD:132519"
+     Region          68..836
+                     /region_name="Molybdopterin-Binding"
+                     /note="Molybdopterin-Binding (MopB) domain of the MopB
+                     superfamily of proteins, a large, diverse, heterogeneous
+                     superfamily of enzymes that, in general, bind
+                     molybdopterin as a cofactor. The MopB domain is found in a
+                     wide variety of molybdenum- and...; cl09928"
+                     /db_xref="CDD:275905"
+     Site            order(118,249,251..253,308..309,311,314..315,336..338,359,
+                     528,655..657,682..684,687,699..700,705)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:238218"
+     Region          910..>978
+                     /region_name="MopB_CT"
+                     /note="Molybdopterin-Binding, C-terminal (MopB_CT) domain
+                     of the MopB superfamily of proteins, a large, diverse,
+                     heterogeneous superfamily of enzymes that, in general,
+                     bind molybdopterin as a cofactor. The MopB domain is found
+                     in a wide variety of molybdenum-...; cl09929"
+                     /db_xref="CDD:271678"
+     Site            order(919..920,922..925)
+                     /site_type="other"
+                     /note="molybdopterin cofactor binding site"
+                     /db_xref="CDD:239176"
+     CDS             1..1148
+                     /gene="nxrA"
+                     /locus_tag="SCABRO_01076"
+                     /coded_by="JRYO01000071.1:30587..34033"
+                     /inference="ab initio prediction:Prodigal:2.60"
+                     /inference="similar to AA sequence:GenBank:GAB63886.1"
+                     /transl_table=11
+ORIGIN      
+        1 mkltrrtfmk vaggvtaavs ipmrnalafk slkpavevdn pldsypdrnw edvyrnqyky
+       61 drsfpfvcsp ndthqcrvra fvrngvvirv eqdyehqdyg dlegrkpqrs wnprmclkgf
+      121 tffrrvygph rlrfpllrkg wkqwaddgfp eldwnareky kfttrgtdeq lkmswddiid
+      181 yvakgmiaia raysgeegkk rllerdkyap etlthwngag trcfknrggm gllgvigkym
+      241 gmyrfsnmla lldanvrgvg adkamggrrf snytwhgdqa pghpfvhglq asdvdfadlr
+      301 ysklviqvgk nlienkmpea hwltevierg gklvvitpey spsatkadyw ipcrtgisdt
+      361 tifltmtkii mdnkwydtdf vkkftdfpll vrtdtlkrlq pheiikdykq peldyshsvq
+      421 gltkdqrgql gdfvvydskt kdfkaitred vgkkmmakgi dpslegtfqv ktvdgktvev
+      481 mtlfdlykih lrdfdvktta ditgapahmi erlakdcati kpvaihygeg inhyfhatlh
+      541 nratylplml tgnigyhgsg shtwagnyka gnfqgskwsg pgfkgiiaed pfdmnldpha
+      601 dgknihahsy amdeevaywn hgdtplivnt pkfgrksftg ethyntptkv lwfnnvnlin
+      661 nakwvyemmk nvnpridlii ssdimmtssi qyadvgfpvn swmefehyev tcscsnpflq
+      721 vwkggikplh dtkddvmvpa lvskrmgell gdrrfadywk faledrpevy mqrlfdgsvp
+      781 trgynvndmi agkygvpgga llnfgtyprt pmyeqvvydr pfhtddgrlh sycdipeaie
+      841 ygenfvchre aieatpylpn vivstnpyir pedygipqsh mgaderhirn ikmpwsevkk
+      901 tknplwekgy rfycvtpktr hrvhsqwstv dwnliwnnnf gdpyrmdkrs pgagehqlhi
+      961 npaaakdlai ndgdyiyvda npvdrpyrgw kpndpfykva rlmvrakynp sypyhttmmk
+     1021 hstnvateks vkahenrkdg mamskdgyls nfrygsqqsi trswlmpmhq tdtlfhkkkv
+     1081 fmgfmhggea dnhvvntvpk etlvritkae dgglgakgvw epartgftpa neskfmklyl
+     1141 qggttsve
+//
+

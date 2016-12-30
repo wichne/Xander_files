@@ -1,0 +1,28 @@
+Building a model for nxrA.
+
+This may be tricky. Pulled sequences from NCBI and uniprot using:
+(narG[gene] OR "nitrate oxidoreductase"[title]) NOT partial[title] NOT beta[title] NOT gamma[title] NOT fragment[title]
+nxra length:>1000
+
+Quick way to get organism info into the id:
+cat nxrA.nr.faa | perl -ne 'chomp; if (/>(\S+) (.*)/) { @id=split/\|/, $1; $d=$2; if (/OS\=([^\=]+) \w{2}\=/) { $sp = $1 } elsif (/\[([^\]]+)\]/) { $sp = $1;} else {$sp=""} $sp =~ s/[\s\W]+/\_/g; print ">$id[1]\_$sp $d\n"} else {print "$_\n"}' > nxrA.nr.annot.faa
+
+This only got me 27 unique sequences, of which 11 were Nitrospira, 4 were Planctomycetes, 1 was an Archaea (Methanoperedens), 1 was a Terrabacteria, 1 was a gProteo, 2 were NC10, 1 was Chloroflexi and 1 was unclassified.
+If I look at nxrB instead, I pick up Nitrospina (the nxrA gene from the genome is truncated) and Nitrobacter.
+(nxrB[gene] OR "nitrite oxidoreductase"[title]) NOT partial*[title] NOT alpha[title] NOT gamma[title] NOT fragment*[title] NOT delta[title] NOT chaperone[title] NOT membrane[title] 
+
+So it appears that there are two nitrite oxidoreductase systems, one that is more closely related to the characterized narGHI system and one that is like the NxrABC found in Nitrospirae. On the other hand, the Nitrospirae NarGHI may have more recently developed from NxrABC. Hrm.
+
+So it really looks like I need to develop 4 models: two for nitrite reductase systems and two for nitrate reductase systems.
+
+I will start with the Nitrospira-like nxrA
+Reduce to just the Nitrospirae-like nxrA sequences. Get rid of gappy (>50%) columns and nr to 85%. Save as the .seeds file and a .sto file.
+Build the initial hmm.
+$ /home/bifx/hmmer-3.0_xanderpatch/binaries/hmmbuild -n nxrA-1 -o nxrA-1.summary nxrA-1.hmm nxrA-1.trimmed.sto
+
+Build the nucl.fa and framebot.fa files
+$ perl /files1/Xander_additions/build_framebot.pl -f nxrA-1.nr.faa
+
+$ /home/bifx/RDPTools/Xander_assembler/bin/prepare_gene_ref.sh nxrA-1
+
+Looking at the ref_aligned.faa, everything looks okay.
